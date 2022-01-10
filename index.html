@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>The Platform</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com?font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <section class="header">
+      <nav class="navbar">
+        <h1 class="logo"><i><a href="index.html">TP</a></i></h1>
+        <ul>
+            <div class="nav-links">
+                <img src="menu-icon-black.png" alt="" class="menu-btn">
+                <li class="ctn"><a href="index.html">Home</a></li>
+                <li class="ctn"><a href="#">Books</a></li>
+                <li class="ctn"><a href="#">Blogs</a></li>
+                <li class="ctn"><a href="#">Author</a></li>
+            </div>
+        </ul>
+      </nav>
+
+      <div class="text-box">
+        <h1>Make Your Read Creative</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta ea fuga dolor. Impedit cum atque aliquam quisquam, dolorum itaque, <br> eveniet hic autem a maxime repellat quibusdam, non obcaecati placeat!</p>
+        <a href="post.html" class="hero-btn">Click Here</a>
+      </div>
+    </section>
+
+    <section class="books">
+      <h1 class="font">Books From The Author</h1>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+
+      <div class="row">
+        <div class="book-col">
+          <h3>New Publications</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia id distinctio aperiam mollitia commodi illum, dolore, vitae quidem molestiae cum labore! Voluptatem, tenetur? Corporis esse possimus dicta voluptates hic porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum non ex autem maxime voluptates veritatis saepe? Ut distinctio quibusdam hic natus vitae nulla soluta provident similique? Tempora, voluptatum officia.</p>
+        </div>
+
+        <div class="book-col">
+          <h3>My Library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia id distinctio aperiam mollitia commodi illum, dolore, vitae quidem molestiae cum labore! Voluptatem, tenetur? Corporis esse possimus dicta voluptates hic porro. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque reprehenderit qui eaque. Qui, explicabo dignissimos sequi similique soluta ad minus? Aspernatur optio dolores ducimus veniam repellat quis vitae distinctio perferendis.</p>
+        </div>
+
+        <div class="book-col">
+          <h3>Info</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia id distinctio aperiam mollitia commodi illum, dolore, vitae quidem molestiae cum labore! Voluptatem, tenetur? Corporis esse possimus dicta voluptates hic porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit rerum, commodi voluptates aliquam hic, cupiditate blanditiis ipsum assumenda omnis, eum at dolores dolorum unde sapiente. Harum voluptatem sed doloremque molestiae?</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="post">
+      <h1>Check Out Our Post</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+      <div class="row">
+        <div class="post-col">
+          <img src="arc7.jpg" alt="">
+          <div class="layer">
+            <h3>Article</h3>
+          </div>
+        </div>
+
+        <div class="post-col">
+          <img src="nature1.jpg" alt="">
+          <div class="layer">
+            <h3>Nature</h3>
+          </div>
+        </div>
+
+        <div class="post-col">
+          <img src="lifestyle1.jpg" alt="">
+          <div class="layer">
+            <h3>Life Style</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quicklinks">
+        <h1 class="links">Quicklink</h1>
+        <ol>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Aurthor</a></li>
+        </ol>
+    </section>
+
+    <section class="footer">
+      <p>Ikeja, Laogs State, Nigeria | phone: +2348153989413 | Email: folayemiebire@gmail.com</p>
+      <p>Copyright &copy; Simplimism and ArcadeDesigns 2022 <br> All Right Reserved</p>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+  
+        menuBtn.addEventListener('click',()=>{
+          navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <script>
+      var navLinks = document.getElementById("navLinks"); 
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
